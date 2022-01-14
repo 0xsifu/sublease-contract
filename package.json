@@ -1,0 +1,11 @@
+{
+  "name": "sublease-contract",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/0xsifu/sublease-contract.git",
+  "author": "chefking <chefking9000@protonmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "hardhat": "^2.8.2"
+  }
+}
