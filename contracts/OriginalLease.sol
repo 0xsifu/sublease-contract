@@ -5,10 +5,14 @@ contract OriginalLease {
 
     address public lessor;
     address public lessee;
-    uint256 public date;
+    uint256 public startDate;
+    uint256 public endDate;
 
-    function LeaseType() public {
-        
+    function LeaseType(address lessee, uint256 startDate, uint256 endDate, uint256 numOfDays) public {
+        startDate = now;
+        endDate = now + (numOfDays * 182 days);
+
+        if 
     }
 }
 
